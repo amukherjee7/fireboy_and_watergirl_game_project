@@ -1,0 +1,70 @@
+Hiyab Abegaz
+
+Period 7 Team 8
+
+Journal
+
+Mon 4/29/2024 in class - 45 mins
+
+Today we worked in our groups and created our repo. We created subclasses to see how pull and commits work on a team repo. 
+
+Tue 4/30/2024 in class - 90 mins
+
+Today we finalized our project idea. Our plan is to make our version of fire boy and water girl.Also, we created the doc above. We made a detailed todo list and we plan on spreading the work evenly and setting due dates to keep us on track. We also got to play the game together. After playing the game we decided to write our the functions and methods that we would need for our project. 
+
+Tue 4/30/2024 at home ~ 10 mins
+
+I worked on adding the basic movement functions for the player class. Now the movement for fire boy and the water girl are properly moving. Our next step will be implementing detection, grid system, and other images.
+
+Thur 5/2/2024 in class - 90 mins
+
+In class we went over the wall detection, pool detection, and gem detection together. We noticed some problems with the sensing of the walls and plan to fix it. Also, we noticed that there was a problem with the detection of the pools. However, after requesting for some help we have some ideas and Anika will be going over that home. We also split up the work that we should have done by Monday. By Monday we plan to have some code for the elevator, button, doors, and to fix any problems with gems and refining character movement. 
+
+Sat 5/4/2024 at home - 90 mins
+
+I worked on adding code for the door detection. Now when all of the gems are detected and both the characters at their corresponding doors they will be removed from the world. Later, we will decrease transparency then remove the characters from the world. However, currently we still have issues when the character is checking for exit and then get removed from world. 
+
+Mon 5/6/2024 in class ~ 45 mins
+
+Today we all worked computer. We discussed what we have done over the weekend, we also worked on completing a level and moving characters to level 2. Next we need to work on transparency and centering the character. Also, we have to fix the jump, work on elevator collision, and pool evaporation. 
+
+Tue 5/7/2024 in class ~ 45 mins
+
+Today for about half of class we discussed some errors that we found in the code. By the end of class we came up with a better solution for the wall detection and jump. Are next goal is to fix the pool detection and make the jump better.
+
+Wed 5/8/2024 at home ~ 90 mins
+
+Today I worked on debugging the jump function. I added code for the character to jump up and move left and right while being able to move up and down. At first I had a hard time trying to make the character to have proper gravity. I tried using a cool-down method then learned that did not work. When I fixed my dy properties, it finally started to work. Next, I needed my character to be able to move left and right while jumping and falling. Initially, I was unsure how to checking if the user was clicking left or right and up for either character. Remembering, that I could use the getDirection() method that we made I got the direction and then was able to use the dx to move the character in air. Next, I think because of the working jumping movement we might need to change the detection of the walls so the character because it only detects one direction at a time. 
+
+Mon 5/13/2024 in library ~ 40 mins
+Today I went over some of the errors in our jump code. There seemed to be a problem with the player jumping over sets of the brick walls. Later I realized that there needed to be an extra checking in move to check for direction and to reset the dy. Also, I tried to find some solutions for the jumping and moving left and right which is not working properly.First I tried to reset the dx also and to call the setLocation + dx in the places were the dx is being increased and not adding dx were it wasn't. However, that didn't seem to be working. Currently, the jump goes up and increases by dx without being clicked left or right. Looking forward are focus is to get the basic movement to work and then add other levels and etc.
+
+Tue 5/14/2024  in class~ 40 mins
+Today in class we went over some of the error we found in the code. We had a problem with the jump, however by the end of class we realized that their was a specific function built into to greenfoot that could specifically help our group. Our next steps in the project is start working on the title page, collisions, and other level worlds.
+
+Thur 5/16/2024 in class~ 20 mins
+Today in class we discussed some errors in the code. Grace got to complete the elevator detection in class! However, there still some errors in the code with the players detection and teleporting and going through walls. Next, our goal is to add the level worlds, menu, instructions, and fix wall detection.
+
+Sun 5/19/2024 at home- 30 mins
+Today I was working on adding the background image,text,buttons, and instructions.At first I was still trying to figure our how to add an image. Latter I figured out how. I was able to add the background image, and create the instructions class. Next, I plan on making the buttons which lead to the the instructions and adding text to the buttons. Also I had a hard time trying to add the title text. I plan on working on the some more and maybe asking for some help to make the images look better.
+
+Mon 5/20/2024 in class- 30 mins
+Today in class we worked on getting the detection for the fireboy and the watergirl to work. We noticed there was some problems specifically with the fire boy, however, even though they had the same code watergirls detection worked much better than fireboys detection.
+
+Tue 5/21/2024 in class- 60 mins
+Today in some of class we worked on figuring out a problem there was with the elevator detection. Currently, we have added level two, we still need to add some adjustments. Next, we plan on getting the features for the menu, instructions, and buttons to work. Also fix any other errors within the code that before due date on monday.
+
+Tue 5/21/2024 at home- 30 mins
+Today I worked on selecting images for the buttons and setting the routes for the images. For a bit I struggled to find the right image and choosing the right way to add the image. Although after a bit I figured it our. Next, We plan to finish the levels and add the iTue 
+
+Wed 5/22/2024 at home- 30 mins
+Today I worked adding some of the directions and I also changed some of the images that I thought that would look better on the page.
+
+Thur 5/23/2024 in class - 90 mins
+Today In class we worked on fixing errors with elevator and implementing instructions and adding designs to match the theme of the game.Currently, the game still have some problems with the detection for the elevator. There seems to be a problem with the character being able to get on elevator without being dropped.Before Sunday we plan to have sound added and maybe adjust the images and sounds for the game.
+
+Thur 5/23/2024 at home - 90 mins
+I worked on adding images adjusting the game over and replay image. At first I wanted to add a background banner for the images, but I realized that I couldn't call the image the way I wanted to because it is part of the image class and not part of the actor class. I still want to add more features, especially with adjusting the page the user will go when certain buttons are clicked. Maybe see if I could add a button to restart whole game and restart level.
+
+Sun 5/26/2024 at home - 90 mins
+Today I worked on finishing the font type and font color. Also, I tried to add the code for the replay button so the player would be able to restart the the level. However, for some reason no matter what I did to the code the player would end up being sent to the menu world. I also added the GameCompleted page and reorganized the worlds.

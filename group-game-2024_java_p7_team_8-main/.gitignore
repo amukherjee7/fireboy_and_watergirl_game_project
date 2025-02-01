@@ -1,0 +1,5 @@
+*.class
+desktop.ini
+*.swp
+.DS_Store
+*.ctxt

@@ -1,0 +1,79 @@
+Ga Eun Nam P7 T8
+
+Mon 4/29/24 in class
+HW 1 - Learned how to use GitHub as a group and formed rough template of the project.
+
+Wed 5/1/24 during tutorial - 20 min
+Worked on assigning images and scaling them if needed.
+
+Wed 5/1/24 10:40 PM - 30 min
+Finished assigning images to each elements.
+
+Thurs 5/2/24 in class - 90 min
+Worked on player functions together and assigned homework over the weekend.
+
+Sun 5/5/24 11:20 PM - 50 min
+Worked on elevator & button movements and pairing them so that one button is assigned to only one elevator.
+
+Mon 5/6/24 during tutorial - 20 min
+Fixed so that one elevator is dedicated to two buttons.
+
+Mon 5/6/24 in class - 45 min
+Discussed what to do next week and reviewed & improved the weekend hw.
+
+Tue 5/7/24 12:00 PM - 30 min
+Tried to make HUD but struggling in changing string.
+
+Tue 5/7/24 in class - 30 min
+Assigned homework and discussed the problems we had.
+
+Tue 5/7/24 10:30 PM - 60 min
+Worked on the hud.
+
+Mon 5/13/24 11:50 AM - 40 min
+Worked on a sample player movement project.
+
+Mon 5/13/24 1:25 PM - 40 min
+Continued working on the sample player movement project with Hiyab.
+
+Tue 5/14/24 in class - 90 min
+Worked together to fix the player movement. Have to fix the issue of breaking through the walls when jumping.
+
+Wed 5/15/24 during tutorial - 30 min
+Worked on level 2 and tried elevator collision but didn't work.
+
+Thurs 5/16/24 in class - 30 min
+Fixed floor collision + water girl movement + elevator collision.
+
+Sun 5/19/24 11:50 PM - 50 min
+Added transition and images in the menu & instruction world. Had a collision issue but went through it fine. Also fixed the issue where if you jump you just go to the elevator that's in air.
+
+Mon 5/20/24 in class - 20 min
+Changed detections for pool and wall.
+
+Tue 5/21/24 in class - 40 min
+Finalized elevator collision and planned out what we need to do to finalize the project.
+
+Wed 5/22/24 12:20 PM - 20 min
+Cropped Watergirl image for better collision detection . Also added a method that allows a game over image to pop up after a player touches a pool and began level 3.
+
+Wed 5/22/24 during lunch - 15 min
+Continued working on level 3.
+
+Wed 5/22/24 6:50 PM - 100 min
+Discovered a problem with an elevator collision and tried fixing it but is not fully done. Finished level 3.
+
+Thurs 5/23/24 - 90 min
+Worked on elevator collision all period but did not really earn anything except for starting new. Otherwise we went over the changes that we made and proposed new ideas.
+
+Mon 5/27/24 2:40 PM - 100 min
+Worked on elevator collision (when going down) but didn't work. Otherwise tested out the game for finalization, changed instruction font to better fit the theme, and added elevator to level.
+
+Mon 5/27/24 4:30 PM - 30 min
+Tried to make it so that if elevator is going down, you can't go below it, however did not work.
+
+Mon 5/27/24 5:00 PM - 60 min
+Fixed elevator collision.
+
+Mon 5/27/24 6:55 PM - 15 min
+Finally fixed elevator collision.

@@ -1,0 +1,48 @@
+ANIKA MUKHERJEE     P7 Java
+
+
+4/29 Journal (45 mins)
+Learned how to utilize Github to collaborate on Java projects. Learned how to resolve merge conflicts and other issues. 
+
+5/1 and 5/2 Journal (120 mins)
+In class, we planned out our schedule and the different classes we would need to build our game. We created several classes in Greenfoot and figured out our core gameplay mechanics. We also assigned homework and I had to create the basic Level 1 world with the class images and mimic Level 1 of Firebox and Watergirl. 
+At home, I worked on the images and creating platforms and walls using the Wall and Block classes. I also added the gems and doors to the Level 1 world. 
+
+5/6 Journal (75 mins)
+In class, we continued working on how to format our player's interactions with different elements such as doors, gems, pools, and more. We tested out other methods that involved the core game mechanics and player movement and started planning out more technical/visual details like the HUD and image transparency. 
+At home, I continued working on wall detection and ensuring that the player never went through, got stuck in/on, or ignored a wall. I was able to implement a nearly perfectly working wall detection method but the image of the characters are still centered in the middle of the wall instead of standing on top of the wall. 
+
+5/8 Journal (60 mins) 
+We didn't really work on the game much during class. At home, I was able to get the pool, wall, and gem detection to truly work perfectly and all the collisions are detected and executed properly now while "looking right". I did this by fixing my getOneObjectAtOffset parameters to test for walls below the character and changed the code for the character's downward movement. 
+
+
+5/9 Journal (90 mins) 
+In class, we found issues in our code for the player movement and the collisions with the pool because the pool detection only worked when the player wasn't moving. We started fixing this and also started working on the jump functions for the player because we couldn't figure out how to make the player move right/left while also jumping up/down. This was pretty difficult and we ended up having to discard and re-do our changes several times. 
+
+5/10 Journal (45 mins) 
+I worked on the jump and collision methods. I also moved some of the other smaller detection methods (check for gem collision, check for pool detection) into the individual classes to make the individual classes more useful and de-clutter the player class. I kept trying to "fix" the player movement but it ended up not working very well. I ended up having to discard a lot of changes because the movement still wasn't working.
+
+5/13 Journal (60 mins) 
+In class we worked more on troubleshooting and getting the player movements to become more smooth. We had more issues with pool detection and wall detection so in class we worked on fixing that by using different methods (getOneObjectAtOffset, getOneIntersectingObject, etc). 
+
+5/14 Journal (90 mins) 
+In class we worked a lot on the movement and were able to get some progress with the player jump. One issue that we did run into, though, was that when the player jumped diagonally, it would accelerate its jump too fast and would ignore the walls, jumping from top to bottom without stopping at walls. We fixed this by changing our logic for the jump and also using the SmoothMover class so that we could increment the player's movement by a double, not just an int. This allowed us to make more gradual changes to the player's dx and dy and have more control. 
+
+5/16 Journal (120 mins) 
+In class we started working more on the wall detection and working on level 2 of the game. We also worked on some of the elevator detection and fixed some player movement. 
+
+5/20 Journal (60 mins) 
+In class we continued working on the player movement and some issues we had with both the FireBoy and WaterGirl movement and object detection. I worked on the wall detection and was able to fix it almost completely. At home I worked on creating the world for Level 2.
+
+5/21 Journal (120 mins)
+Before class, I continued working on the level 2 world and created the walls, pools, gems, and elevators for the level 2 world. In class, we worked more on the player movement, object detection, pool detection, elevators, and started on Level 3. We also made a plan for how we would start wrapping up and adding finishing touches to the game. 
+
+5/22 Journal (45 mins) 
+At home, I continued working on level 2 and edited the pools, elevators, and walls to make the level more playable. I implemented a more simple wall design and added more elevators to ensure the level was smooth and playable. 
+
+5/23 Journal (90 mins) 
+In class, we worked more on level 2 to further improve the player movement because we noticed an issue with the elevator. We also worked on the start and instructions in the beginning of the game. I will start working on the sounds and other finishing touches this weekend.
+
+5/26 Journal (150 mins) 
+At home, I spent a lot of time working on the sounds for the game. I found sounds online for the FireBoy and WaterGirl game and started by converting all the sounds to mp3. I then implemented BGM for the menu and instruction worlds. Then, I implemented BGM for the level worlds. Then, I implemented player sounds like jump, scream, gem collection. Finally, I added sounds for next level and game over conditions. 
+
